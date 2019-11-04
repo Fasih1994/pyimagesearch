@@ -1,4 +1,4 @@
-from tensorflow.keras.utils import np_utils
+from tensorflow.keras.utils import to_categorical
 import numpy as np
 import h5py
 
@@ -34,7 +34,7 @@ class HDF5DatasetGenerator:
                 labels = self.db['labels'][i: i + self.batch_size]
 
                 if self.binarize:
-                    labels = np_utils.to_categorical(labels, self.classes)
+                    labels = to_categorical(labels, self.classes)
 
                 if self.preprocessors is not None:
                     procImages = []
