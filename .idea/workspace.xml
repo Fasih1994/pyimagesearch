@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d14f168-afb0-40a5-87be-4d6cb4044f6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyimagesearch/io/hdf5datasetgenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/io/hdf5datasetgenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,10 @@
       <workItem from="1572677150333" duration="4933000" />
       <workItem from="1572682121569" duration="65000" />
       <workItem from="1572768146647" duration="203000" />
-      <workItem from="1572868133389" duration="33000" />
+      <workItem from="1572868133389" duration="1289000" />
+      <workItem from="1573554541242" duration="17000" />
+      <workItem from="1573620089389" duration="3681000" />
+      <workItem from="1573630632404" duration="1417000" />
     </task>
     <servers />
   </component>

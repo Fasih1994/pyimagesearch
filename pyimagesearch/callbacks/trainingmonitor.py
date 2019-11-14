@@ -1,4 +1,4 @@
-from tensorflow.keras.callbacks import BaseLogger
+from keras.callbacks import BaseLogger
 import matplotlib.pyplot as plt
 import numpy as np
 import json
@@ -33,7 +33,8 @@ class TrainingMonitor(BaseLogger):
     def on_epoch_end(self, epoch, logs={}):
         for (k, v) in logs.items():
             l = self.H.get(k, [])
-            l.append(v)
+
+            l.append(float(v))
             self.H[k] = l
 
         if self.jsonPath is not None:
