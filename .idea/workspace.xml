@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d14f168-afb0-40a5-87be-4d6cb4044f6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" afterDir="false" />
-    </list>
+    <list default="true" id="2d14f168-afb0-40a5-87be-4d6cb4044f6b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <workItem from="1572868133389" duration="1289000" />
       <workItem from="1573554541242" duration="17000" />
       <workItem from="1573620089389" duration="3681000" />
-      <workItem from="1573630632404" duration="1417000" />
+      <workItem from="1573630632404" duration="1566000" />
     </task>
     <servers />
   </component>
