@@ -4,7 +4,6 @@
     <list default="true" id="2d14f168-afb0-40a5-87be-4d6cb4044f6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/callbacks/trainingmonitor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyimagesearch/nn/conv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyimagesearch/nn/conv/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +55,7 @@
       <workItem from="1573620089389" duration="3681000" />
       <workItem from="1573630632404" duration="1566000" />
       <workItem from="1573744755969" duration="1414000" />
-      <workItem from="1573826976764" duration="5007000" />
+      <workItem from="1573826976764" duration="5999000" />
     </task>
     <servers />
   </component>

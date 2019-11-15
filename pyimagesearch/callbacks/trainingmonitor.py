@@ -47,19 +47,7 @@ class TrainingMonitor(BaseLogger):
             # plot the training loss and accuracy
             N = np.arange(0, len(self.H["loss"]))
             plt.style.use("ggplot")
-            plt.figure()
-            plt.plot(N, self.H["accuracy"], label="train_acc")
-            plt.plot(N, self.H["val_accuracy"], label="val_acc")
-            plt.title("Training Accuracy [Epoch {}]".format(len(self.H["loss"])))
-            plt.xlabel("Epoch #")
-            plt.ylabel("Accuracy")
-            plt.legend()
-            # save the figure
-            plt.savefig('Accuracy_'+self.figPath)
-            plt.close()
-
-            N = np.arange(0, len(self.H["loss"]))
-            plt.style.use("ggplot")
+            plt.subplot(1, 2, 1)
             plt.figure()
             plt.plot(N, self.H["loss"], label="train_loss")
             plt.plot(N, self.H["val_loss"], label="val_loss")
@@ -67,6 +55,14 @@ class TrainingMonitor(BaseLogger):
             plt.xlabel("Epoch #")
             plt.ylabel("Loss")
             plt.legend()
+
+            plt.subplot(1, 2, 2)
+            plt.plot(N, self.H["accuracy"], label="train_acc")
+            plt.plot(N, self.H["val_accuracy"], label="val_acc")
+            plt.title("Training Accuracy [Epoch {}]".format(len(self.H["loss"])))
+            plt.xlabel("Epoch #")
+            plt.ylabel("Accuracy")
+            plt.legend()
             # save the figure
-            plt.savefig("Loss_"+self.figPath)
+            plt.savefig(self.figPath)
             plt.close()
