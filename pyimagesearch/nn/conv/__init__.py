@@ -5,3 +5,4 @@ from pyimagesearch.nn.conv.fcheadnet import FCHeadNet
 from pyimagesearch.nn.conv.alexnet import AlexNet
 from pyimagesearch.nn.conv.minigooglenet import MiniGoogleNet
 from pyimagesearch.nn.conv.deepergooglenet import DeeperGoogleNet
+from .resnet import ResNet
